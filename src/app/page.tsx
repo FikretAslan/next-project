@@ -12,10 +12,10 @@ export default function Home() {
         thought-provoking content! Dive into a world of diverse perspectives as
         our blog page offers a rich tapestry of articles spanning topics from
         technology and lifestyle to travel and personal development. Whether
-        you're a seasoned reader or a newcomer to the blogging scene, Blogs R Us
-        is here to ignite your curiosity and keep you engaged with insightful
-        and entertaining posts. Join us on this journey of exploration and
-        discovery!
+        you&apos;re a seasoned reader or a newcomer to the blogging scene, Blogs
+        R Us is here to ignite your curiosity and keep you engaged with
+        insightful and entertaining posts. Join us on this journey of
+        exploration and discovery!
       </h3>
     </main>
   );
