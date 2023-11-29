@@ -35,7 +35,7 @@ export default async function Comments({ postSlug }: { postSlug: string }) {
           <li key={comment.id}>
             {comment.username} says...
             <br />
-            {comment.comtent}
+            {comment.content}
           </li>
         );
       })}

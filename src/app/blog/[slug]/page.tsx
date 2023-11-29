@@ -10,6 +10,9 @@ type BlogPostParams = {
   };
 };
 
+// slug: 'thesearemyparams'
+// localhost:3000/blog/therearemyparams
+
 // this builds all the params for ALL blog posts when the website is deployed
 export function generateStaticParams() {
   const posts = getPosts();
