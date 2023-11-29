@@ -6,7 +6,8 @@ export default function Page() {
 
   return (
     <div>
-      <h2> My posts: </h2>
+      <h2 className="text-3xl font-bold text-black-600 mb-4">My Posts:</h2>
+
       <ul>
         {posts.map((post) => {
           return (

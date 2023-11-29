@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +19,33 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #4caf50, #2196f3);
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+
+h3 {
+  font-family: "Kalam", cursive;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+li :nth-child(1) {
+  padding: 20px;
 }
